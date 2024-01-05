@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            background-color: #4b0491;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header{
+            background-color:#ffd503;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        header > h1{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter;
+            text-align: center;
+            color: #7341A6;
+            margin-top: 0px;
+        }
+
+        nav{
+            margin: auto;
+            padding: 3px;
+            box-shadow: 1px 1px 5px rgb(134, 130, 2);
+        }
+
+        nav > a{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:#7341A6;
+            margin: 30px;
+        }
+
+        a:hover{
+            color: #D97904;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        main{
+            padding: 0px 0px 5px 0px;
+            margin: 10px;
+        }
+
+        article > h2{
+            background-color: #ffd503;
+            color: #7341A6;
+            padding: 5px;
+            margin-top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        article > p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        ins:hover{
+            text-decoration: underline;
+            color: #ffd503;
+            font-weight: bold;
+        }
+
+        #criador{
+            font-style: italic;
+        }
+
+        footer{
+            background-color: white;
+            color: #7341A6;
+            margin: 30px 10px;
+            padding: 1px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        #gatinho{
+           margin: auto;
+           width: 500px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lakers</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias - Lakers</h2>
+                <p>O Lakers pode ter vencido a Copa da NBA, mas agora está em uma sequência de três derrotas que fez o time cair para o oitavo lugar na classificação da Conferência Oeste.
+
+                 Falando com a imprensa após a <ins>última derrota para o Chicago Bulls</ins> na quarta-feira à noite, LeBron James disse que a equipe já está se sentindo cansada nas fases iniciais da temporada e que isso contribuiu para a série de três derrotas.</p>
+                 <aside>
+                    <p id="criador">Artigo feito por Raphael Philipe</p>
+                 </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site feito por Maria Eduarda</p>
+    </footer>
+    <div id="gatinho">
+        <img src="imagem/gifs-do-gatinho-digitando-2.gif" alt="gatinho codando">
+    </div>
+</body>
+</html>

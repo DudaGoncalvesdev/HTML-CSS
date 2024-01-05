@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h1{
+    color:cadetblue;
+    background-color: bisque;
+}
