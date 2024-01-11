@@ -6,7 +6,6 @@ body{
     margin: 0px;
     font-family: 'Sriracha', cursive;
     font-size: 30px;
-
 }
 
 header{
@@ -21,6 +20,7 @@ h1{
     font-size: 10vw;
     margin-top: 0px;
     margin-bottom: 1px;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -29,7 +29,7 @@ header > p {
 
 a{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
@@ -40,6 +40,8 @@ a:hover{
 
 section{
     padding: 60px;
+    line-height: 1.5em;
+    font-size: 3.5vw;
 }
 
 #frase{
@@ -73,8 +75,7 @@ footer{
     color: white;
     background-color: black;
     text-align: center;
-    padding: 5px;
-    margin-top: 20px;
+    padding: 10px;
 }
 
 footer>a{
